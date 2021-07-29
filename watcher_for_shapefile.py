@@ -49,6 +49,7 @@ def shapefile_info_attr(aux_file,time_marks):
     #print(layer)
     layer.ResetReading()
 
+# = = = = = = = = = = = = = =
 # modified by https://pcjericks.github.io/py-gdalogr-cookbook/projection.html
 def reproject_a_layer(inEPSG, outEPSG, basic_file):
     driver = ogr.GetDriverByName('ESRI Shapefile')
