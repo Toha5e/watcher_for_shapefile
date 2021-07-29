@@ -12,7 +12,7 @@ import ogr
 # Settings
 basic_file = 'basic_epsg4326.shp'
 inEPSG = 4326
-outEPSG = 32637# write 4326 (area in square degrees )
+outEPSG = 32637# or 4326 (area in square degrees )
 
 report_file = 'report.csv'
 minutes = 240
