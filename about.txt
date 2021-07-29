@@ -1,0 +1,14 @@
+this script created for observation  to shapefile changes
+
+Run watcher_for_shapefile.py
+
+Run test_qgis_project
+ 
+   edit basic_epsg4326.shp
+  
+   save changes periodically
+
+
+watcher_for_shapefile.py will write to report.csv
+
+timestamp in seconds, FID, id, number of vertices in the polygon, area in sq. meters, area in hectares
